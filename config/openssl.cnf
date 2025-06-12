@@ -9,7 +9,7 @@
 
 # This definition stops the following lines choking if HOME isn't
 # defined.
-HOME			= .
+HOME			= /cygdrive/c/george_study/ubuntu/stdy/githubopenssl/config
 
 # Extra OBJECT IDENTIFIER info:
 #oid_file		= $ENV::HOME/.oid
@@ -36,7 +36,7 @@ system_default = crypto_policy
 
 [ crypto_policy ]
 
-.include = /etc/crypto-policies/back-ends/opensslcnf.config
+.include = $HOME/opensslcnf.config
 
 [ new_oids ]
 
