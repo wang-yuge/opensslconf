@@ -1,0 +1,1 @@
+openssl req -newkey ec -pkeyopt ec_paramgen_curve:secp521r1 -keyout g1.key -out g1.csr
